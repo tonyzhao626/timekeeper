@@ -1,15 +1,10 @@
 # TimeKeeper
 
-[TimeKeeper Live][live]
+<p>TimeKeeper is a web application inspired by Toggl.com.</p>
 
-[TimeKeeper][live] is a web application inspired by Toggl.com built using Ruby on Rails
-and React/Redux. It offers features for users to search and create projects,
-track time of each tasks, and data visualization of these tasks.
+<p>It is a full stack app built using Ruby on Rails and React/Redux. </p>
 
-[TimeKeeper][live] is a personal project of Raymond Lee.
-
-[live]: http://www.timekeeper.raymondlee.io/
-[development]: ./docs/
+<p>It offers features for users to search and create projects, track time of each tasks, and data visualization of these tasks.</p>
 
 ![TimeKeeper home](./docs/images/timekeeper-home.png)
 ![TimeKeeper project](./docs/images/timekeeper-project.png)
