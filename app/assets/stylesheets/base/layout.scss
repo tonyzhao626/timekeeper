@@ -1,0 +1,44 @@
+html, body, main {
+  height: 100%;
+  margin: 0;
+}
+
+.home {
+  height: calc(100%);
+  background-image: url("http://res.cloudinary.com/rlee0525/image/upload/v1487455652/splash-bg-min-min_rawuvy.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.home-overlay {
+  height: calc(100%);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#button-start:hover {
+  opacity: 1;
+  background-color: $dark-pink;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.tilt:hover {
+  -webkit-transform: rotate(-2deg);
+     -moz-transform: rotate(-2deg);
+       -o-transform: rotate(-2deg);
+      -ms-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+}

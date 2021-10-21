@@ -1,0 +1,235 @@
+.timer-page-headings {
+  width: 100%;
+  z-index: 10;
+}
+
+.timer-page-body {
+  overflow: auto;
+  margin-top: 30px;
+}
+
+.main-timer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: white;
+  font-size: 18px;
+  font-family: $sans-serif;
+  text-align: left;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+.main-timer-text {
+  display: block;
+  position: absolute;
+  left: 2%;
+  top: 35%;
+  overflow-x: auto;
+  width: 500px;
+  z-index: 2;
+  font-family: $sans;
+  font-weight: bold;
+  color: $dark-pink;
+}
+
+.main-display-timer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: column;
+}
+
+.display-main-timer-text {
+  position: absolute;
+  left: 80%;
+  margin-top: 22px;
+  font-size: 24px;
+  font-family: $sans;
+  opacity: 0.8;
+}
+
+.display-main-timer-button {
+  position: absolute;
+  margin-top: 14px;
+  left: 93%;
+}
+
+.main-timer-button {
+  font-size: 27px;
+  color: $dark-pink;
+}
+
+.main-timer-button > .fa-play-circle {
+  color: $teal;
+}
+
+.main-timer-button > .fa-play-circle:hover {
+  opacity: 0.7;
+}
+
+.main-timer-button > .fa-stop-circle:hover {
+  opacity: 0.7;
+}
+
+:disabled > .fa-play-circle {
+  color: gray;
+}
+
+.fa-plus {
+  margin-right: 10px;
+  color: $dark-pink;
+  opacity: 1;
+}
+
+.project-form {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.tasks-list {
+  background: $lightest-gray;
+}
+
+.button-task-detail {
+  display: inline-block;
+  width: 100%;
+}
+
+.tasks-li {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: $sans;
+  text-align: left;
+  align-items: center;
+  border: 1px solid gray;
+  margin-bottom: 5px;
+}
+
+.task-li-title {
+  display: flex;
+  position: absolute;
+  text-align: left;
+  padding-left: 30px;
+  font-family: $sans;
+  font-weight: bolder;
+  color: $dark-gray;
+}
+
+.task-li-title:hover {
+  cursor: pointer;
+  color: $dark-pink;
+}
+
+.task-li-project {
+  position: absolute;
+  top: 22%;
+  left: 60%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: $dark-pink;
+  color: white;
+  opacity: 0.9;
+}
+
+.task-li-project:hover {
+  opacity: 0.7;
+}
+
+.task-li-time {
+  position: absolute;
+  top: 42%;
+  left: 88%;
+  transform: translate(-30%, -30%);
+  padding-right: 30px;
+}
+
+.task-li-time-button {
+  position: absolute;
+  top: 41%;
+  left: 95%;
+  transform: translate(-30%, -30%);
+  padding-right: 30px;
+}
+
+.tags-input > .fa-tags {
+  margin: 10px 15px 0 0;
+  color: $teal;
+}
+
+.tags-input {
+  display: flex;
+  position: absolute;
+  left: 25%;
+  margin-top: 22px;
+  z-index: 3;
+}
+
+.search-project-container {
+  position: absolute;
+  left: 76%;
+  margin-top: 7px;
+}
+
+.placeholder-tags {
+  display: float;
+  position: absolute;
+  left: 16%;
+  top: 24%;
+  font-size: 14px;
+  font-family: $sans;
+  color: $light-teal;
+  z-index: 0;
+}
+
+.form-group > input {
+  color: $dark-pink;
+  position: relative;
+}
+
+.main-timer-tag-names > ul {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 36%;
+  left: 20%;
+}
+
+.main-timer-tag-name {
+  display: flex;
+  list-style: none;
+  font-family: $sans;
+  font-size: 12px;
+  color: white;
+  background-color: $teal;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 3px 7px 3px 7px;
+}
+
+.task-timer-button {
+  font-size: 20px;
+  color: $dark-pink;
+}
+
+.task-timer-button > .fa-play-circle {
+  color: $teal;
+}
+
+.task-timer-button > .fa-play-circle:hover {
+  opacity: 0.7;
+}
+
+.task-timer-button > .fa-stop-circle:hover {
+  opacity: 0.7;
+}

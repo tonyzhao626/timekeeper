@@ -1,0 +1,118 @@
+.help-headings {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background: white;
+  font-size: 18px;
+  font-family: $sans-serif;
+  text-align: left;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+.main-help-title {
+  margin-left: 30px;
+  font-family: $sans-serif;
+  color: $dark-pink;
+  font-size: 20px;
+}
+
+.help-page-body {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+  margin: 25px 6px 6px 6px;
+  background-color: $lightest-gray;
+  border-radius: 10px;
+  height: 100%;
+  font-family: $sans;
+
+  .profile-pic {
+    display: flex;
+    position: absolute;
+    top: calc(1% + 132px);
+    left: calc(1% + 200px);
+  }
+
+  .profile-links {
+    display: flex;
+    position: absolute;
+    top: calc(1% + 452px);
+    left: calc(1% + 215px);
+
+    a {
+      padding-right: 50px;
+    }
+  }
+
+  .about-content {
+    display: flex;
+    position: absolute;
+    top: calc(1% + 70px);
+    left: calc(5% + 450px);
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    padding: 50px;
+    width: 530px;
+
+    .about-logo {
+      display: flex;
+      position: relative;
+      width: 100%;
+      margin-bottom: 60px;
+      margin-top: 15px;
+    }
+
+    .about-logo > img {
+      display: flex;
+      position: absolute;
+      width: 47px;
+      height: 47px;
+      top: 70%;
+    }
+
+    .about-logo > a {
+      position: absolute;
+      left: 13%;
+      height: 70px;
+    }
+
+    h1 {
+      font-size: 35px;
+      color: $dark-pink;
+      font-weight: bold;
+    }
+
+    h1:hover {
+      text-decoration: underline;
+    }
+
+    h3, ul {
+      width: 100%;
+      color: $medium-pink;
+    }
+
+    h3 {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style: square;
+      left: 30%;
+    }
+
+    li {
+      margin-left: 30px;
+      font-size: 15px;
+      color: $teal;
+    }
+  }
+}
